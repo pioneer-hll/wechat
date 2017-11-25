@@ -1,0 +1,51 @@
+/**index.wxss**/
+/* .userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+} */
+.slides{
+  height: 380rpx
+}
+.slides navigator,
+.slides image{
+  height:100%;
+  width:100%;
+}
+.grids{
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1rpx solid #eee;
+  border-left: 1rpx solid #eee;
+  background-color: #fff;
+}
+.grids .grid{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   width: 33.3333333333%; 
+  height: 250rpx;
+  border-right: 1rpx solid #eee;
+  border-bottom: 1rpx solid #eee;
+  box-sizing: border-box;
+}
+.grids .grid image{
+  width: 70rpx;
+  height:70rpx;
+}
